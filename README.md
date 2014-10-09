@@ -4,6 +4,8 @@ This repo intends to answer
 [How to access Padrino model and database in a “standalon” (bin/) script?](http://stackoverflow.com/questions/26222801/how-to-access-padrino-model-and-database-in-a-standalon-bin-script) and
 [How to access a gemified Padrino Apps Model from other gem that requires that App](http://stackoverflow.com/questions/26213806/how-to-access-a-gemified-padrino-apps-model-from-other-gem-that-requires-that-ap).
 
+There is also a GitHub issue for padrino-framework at padrino/padrino-framework#1784 .
+
 ## The issue
 
 In short, there are two issues of the similar nature, both related to models defined in the gemified app:
@@ -19,7 +21,7 @@ called `SomeModel` that has one field called `property`.
 Then there's `access-gemified-app-without-padrino`; a ruby script that loads the gemified app to
 access the model.
 
-Finally, there's `another-app` which a regular Padrino app that just loads `gemified-app` to use
+Finally, there's `another-app` which is a regular Padrino app that just loads `gemified-app` to use
 its model.
 
 ## Problems with the current Padrino setup
