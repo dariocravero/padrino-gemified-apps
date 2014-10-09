@@ -4,7 +4,7 @@ This repo intends to answer
 [How to access Padrino model and database in a “standalon” (bin/) script?](http://stackoverflow.com/questions/26222801/how-to-access-padrino-model-and-database-in-a-standalon-bin-script) and
 [How to access a gemified Padrino Apps Model from other gem that requires that App](http://stackoverflow.com/questions/26213806/how-to-access-a-gemified-padrino-apps-model-from-other-gem-that-requires-that-ap).
 
-There is also a GitHub issue for padrino-framework at padrino/padrino-framework#1784 .
+There is also a GitHub issue for padrino-framework at https://github.com/padrino/padrino-framework/issues/1784 .
 
 ## The issue
 
